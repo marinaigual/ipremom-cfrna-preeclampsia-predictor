@@ -1,0 +1,8 @@
+# Sample groups
+samples:
+  LOPE_samples:
+    - "XXXX-XXXX"
+  EOPE_samples:
+    - "XXXX-XXXX"
+  control_samples:
+    - "XXXX-XXXX"

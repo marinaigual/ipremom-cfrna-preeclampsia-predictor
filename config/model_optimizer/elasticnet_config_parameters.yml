@@ -1,0 +1,31 @@
+alpha:
+- 0.0001
+- 0.001
+- 0.01
+- 0.1
+- 1
+- 2
+- 3
+- 10
+- 20
+fit_intercept:
+- true
+- false
+l1_ratio:
+- 0.1
+- 0.2
+- 0.5
+- 0.7
+- 0.9
+max_iter:
+- 5
+- 10
+- 15
+- 20
+- 25
+- 100
+- 500
+- 1000
+selection:
+- cyclic
+- random

@@ -1,0 +1,21 @@
+max_depth:
+- 5
+- 10
+max_features:
+- sqrt
+- log2
+- null
+min_samples_leaf:
+- 3
+- 4
+min_samples_split:
+- 3
+- 4
+- 5
+n_estimators:
+- 5
+- 10
+- 15
+- 20
+- 50
+- 100

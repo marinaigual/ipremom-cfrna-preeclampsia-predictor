@@ -1,0 +1,20 @@
+# Input file paths
+file_paths:
+  EOPE T1: "../../../input/final_models/EOPE_T1/input_model_eope_ctr_t1_v7_36g_281024.csv"
+  EOPE T2: "../../../input/final_models/EOPE_T2/input_model_eope_ctr_t2_v7_87g_281024.csv"
+  LOPE T1: "../../../input/final_models/LOPE_T1/input_model_lope_ctr_t1_v7_19g_281024.csv"
+  LOPE T2: "../../../input/final_models/LOPE_T2/input_model_lope_ctr_t2_v7_94g_281024.csv"
+
+# Model paths
+model_paths:
+  EOPE T1: "../../../input/final_models/EOPE_T1/eope_t1_optimal_281024.sav"
+  EOPE T2: "../../../input/final_models/EOPE_T2/eope_t2_optimal_281024.sav"
+  LOPE T1: "../../../input/final_models/LOPE_T1/lope_t1_optimal_281024.sav"
+  LOPE T2: "../../../input/final_models/LOPE_T2/lope_t2_optimal_281024.sav"
+
+# Thresholds
+thresholds:
+  EOPE T1: 0.2505038428585143
+  EOPE T2: 0.20776694105779087
+  LOPE T1: 0.21853140468630847
+  LOPE T2: 0.4180632173814439

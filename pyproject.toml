@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = "cfRNA modeling and data analysis"
+authors = ["marina igual <marina.igual@ipremom.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+ipython = "8.12.3"
+joblib = "1.3.2"
+matplotlib = "3.8.1"
+numpy = "1.26"
+pandas = "2.2.3"
+scikit-learn = "1.5.2"
+scipy = "1.14.1"
+seaborn = "0.13.2"
+tqdm = "4.65.2"
+xgboost = "1.7.6"
+bio = "^1.7.1"
+tabpfn = "^0.1.10"
+today = "^0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
